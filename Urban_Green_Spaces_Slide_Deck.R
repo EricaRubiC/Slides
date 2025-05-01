@@ -78,3 +78,7 @@ ggplot(greenspace_data_share, aes(x = HDI_level, y = peak_NDVI_2021, fill = HDI_
 # Kruskal-Wallis test (non-parametric)
 kruskal.test(peak_NDVI_2021 ~ HDI_level, data = greenspace_data_share)
 
+# Checking
+
+unique(greenspace_data_share$Major_Geo_Region)
+
